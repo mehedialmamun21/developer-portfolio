@@ -24,7 +24,7 @@ h1{
     background-color: orange;
     padding: 10px 25px;
     border-radius: 15px;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(#f7a815, tomato);
     color: white;
     font-weight:700;
 }
@@ -52,10 +52,26 @@ h1{
     margin: 5%;
     padding-left: 3%;
     border-radius: 10px;
-    border-left: 5px solid tomato;
+    
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#web-dev1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#web-dev2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.experience-item{
+    padding: 10px 5px 100px 30px;
+}
+footer p{
+    text-align: center;
 }
