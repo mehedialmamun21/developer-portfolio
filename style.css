@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 7%;
 }
 .half-width{
     width: 50%;
@@ -30,4 +31,13 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.download-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(rgb(243, 57, 24), rgb(224, 150, 11));
+    border-radius: 15px;
 }
