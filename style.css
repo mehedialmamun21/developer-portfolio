@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 7%;
 }
@@ -42,4 +42,20 @@ section{
 }
 .half-width #padding{
     padding-right: 45%;
+}
+.third-flex{
+    display: flex;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin: 5%;
+    padding-left: 3%;
+    border-radius: 10px;
+    border-left: 5px solid tomato;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
